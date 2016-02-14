@@ -3,9 +3,10 @@ class StaticController < ApplicationController
   end
 
   def home
-  	@foo = "foo"
+  	foo = "bar"
   end
 
   def notfound
   end
+
 end

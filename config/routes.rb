@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
+  
+  # Static pages
   get 'static/help'
-
   get 'static/home'
-
   get 'static/notfound'
 
   # The priority is based upon order of creation: first created -> highest priority.
