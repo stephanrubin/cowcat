@@ -3,6 +3,7 @@ class StaticController < ApplicationController
   end
 
   def home
+  	@foo = "foo"
   end
 
   def notfound
