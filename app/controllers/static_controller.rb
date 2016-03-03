@@ -9,4 +9,9 @@ class StaticController < ApplicationController
   def notfound
   end
 
+  def about
+  	version = "1.0"
+  	author_name = "Sarah Callaghan"
+  end
+
 end
